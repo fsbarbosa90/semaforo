@@ -1,0 +1,10 @@
+﻿*.BAK 
+*.ppx_prw
+*.erx_prw
+*.erx_prx
+*.ppx_prx
+*.log
+*.~pr
+*.erx_png
+TDS
+.metadata
