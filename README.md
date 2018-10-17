@@ -30,8 +30,15 @@ oSemaforo:setSleep(500)
 
 
 If !oSemaforo:LockData()
+
+
   FreeObj(oSemaforo)
-	Return .F.
+  
+  
+   Return .F.
+	
+	
+	
 EndIf
 
 
