@@ -12,14 +12,33 @@ User Function IMPORTACAODEPV
 ****************************
 Local oSemaforo :=  Semaforo():New() 
 
-//VAI SETAR O NOME DA FUNCAO QUE VAI BLOQUEAR
+
+
+
+//NOME DA FUNCAO
+
+
+
+
+
 oSemaforo:setName("IMPORTACAODEPV")
 
 
-oSemaforo:setTry(10)//NUMERO DE TENTATIVAS QUE O SISTEMA VAI TENTAR O BLOQUEIO EXCLUISIVO DA ROTINA
+
+
+
+
+oSemaforo:setTry(10)//NUMERO DE TENTATIVAS DE BLOQUEIO
+
+
+
+
+
 
 
 oSemaforo:setSleep(500)//TEMPO ENTRE AS TENTATIVAS MILESEGUNDOS
+
+
 
 
 // +--------------------------------+
